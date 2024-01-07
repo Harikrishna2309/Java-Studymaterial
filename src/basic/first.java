@@ -2,7 +2,7 @@ package basic;
 
 
 public class first {
-	   public static void main(String ar[]) {
+	   public static void main(String args[]) {
 		 /*  System.out.println("hello");
 		   int a=10;
 		   a++;
@@ -66,14 +66,27 @@ public class first {
 		   float f=i;
 		   long l=f;
 		   System.out.println();*/
-		   int x;
-		   x=5;
-		   {
-			   int y=6;
-			   System.out.println(x+" "+y);
-		   }
-		   System.out.println(8/4*6*2/3%4-7);
+//		   int x;
+//		   x=5;
+//		   {
+//			   int y=6;
+//			   System.out.println(x+" "+y);
+//		   }
+//		   int a=1,b=1,c=3,d=8;
+//		   System.out.println(a*=(d+=a=c/=a==b));
 		   
+//		   int i=1;
+//		   if(i++==1) {
+//			   System.out.println("hello");
+//		   }else {
+//			   System.out.println("world");
+//		   }
+		   
+		   int a=5;
+		   int b=a;
+		   a++;
+		   b=a++;
+		   System.out.println(b);
 		 
 	   }
 	}

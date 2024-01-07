@@ -13,7 +13,7 @@ public class Fibonacci {
 			f3=f2+f1;
 			f1=f2;
 			f2=f3;
-			System.out.print(" "+f3);
+			System.out.print(" "+(short)f3);
 		}
 		
 
