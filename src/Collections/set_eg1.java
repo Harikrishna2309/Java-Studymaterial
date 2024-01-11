@@ -3,7 +3,7 @@ import java.util.*;
 public class set_eg1 {
 
 	public static void main(String[] args) {
-		int count[]= {34,22,10,60,20,22};
+		int count[]= {34,22,10,60,20,22,20};
 		Set<Integer>set=new HashSet<Integer>();
 		for(int i=0;i<count.length;i++) {
 			set.add(count[i]);
