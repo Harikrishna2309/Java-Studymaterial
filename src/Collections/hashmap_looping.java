@@ -10,7 +10,7 @@ public class hashmap_looping {
 		s1.put(33,"ef");
 	    s1.put(9,"gh");
 		s1.put(3,"aij");
-		System.out.println(s1.entrySet());
+		//System.out.println(s1.entrySet());
 		System.out.println("for loop: ");
 		for(Map.Entry me:s1.entrySet()) {
 			System.out.println("key: "+me.getKey()+" (&) value: "+me.getValue());
