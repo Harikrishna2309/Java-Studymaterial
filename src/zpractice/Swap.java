@@ -14,6 +14,15 @@ public class Swap {
 	
 		System.out.println(a);
 		System.out.println(b);
+		
+		
+		int c=a;
+		a=b;
+		b=c;
+		
+		
+		System.out.println(a);
+		System.out.println(b);
 
 	}
 
