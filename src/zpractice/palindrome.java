@@ -18,6 +18,7 @@ public class palindrome {
 		}
 //		System.out.println("input String= "+s);
 //		System.out.println(s2);
+		
 		if(s.equals(s2.toString())) {
 			System.out.println("palindrome");
 		}
