@@ -25,7 +25,7 @@ public class Swap {
 		
 //		System.out.println(a);
 //		System.out.println(b);
-		String s="hari krish";
+		/*String s="hari krish";
 		String []x=(s.split("\\ "));
 		System.out.println(Arrays.toString(x));
 		for(String i:x) {
@@ -34,7 +34,12 @@ public class Swap {
 		StringBuffer s1= new StringBuffer(s);
 		System.out.println(s1);
 		s1.append(" M");
-		System.out.println(s1);
+		System.out.println(s1);*/
+		for(int i=0;i<1;i++) {
+			System.out.println(i+' ');
+			//ans 32 ASCII value of space is 32 because java concate charcter with number it change charcter to ascii
+			//if" "using double quotes its value is 0
+		}
 
 	}
 
