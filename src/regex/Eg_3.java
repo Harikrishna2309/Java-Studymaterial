@@ -9,8 +9,8 @@ public class Eg_3 {
 		Matcher matcher=pattern.matcher(line);
 		while(matcher.find()) {
 			System.out.println("group1: "+matcher.group(1));
-			System.out.println("group2: "+matcher.group(2));
-			System.out.println("group3: "+matcher.group(3));
+			System.out.println("group2: "+matcher.group(3));
+			System.out.println("group3: "+matcher.group(2));
 		}
 
 	}
