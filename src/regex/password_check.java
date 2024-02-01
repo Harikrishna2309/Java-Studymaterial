@@ -16,7 +16,7 @@ public class password_check {
 	}
 
 	public static void main(String[] args) {
-		String str1="pass@portal20";
+		String str1="pass@Portal20";
 		System.out.println(isvalidpassword(str1));
 		String str2="passwordcheck";
 		System.out.println(isvalidpassword(str2));
