@@ -1,4 +1,4 @@
-package zpractice;
+ package zpractice;
 import java.util.*;
 public class Ibm_prblm {
 	public static boolean hasRepeatedDigits(int number) {
