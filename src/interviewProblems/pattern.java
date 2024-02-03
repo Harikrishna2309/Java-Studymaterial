@@ -1,4 +1,4 @@
-package zoho;
+package interviewProblems;
 import java.util.*;
 import java.io.*;
 public class pattern {

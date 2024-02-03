@@ -1,4 +1,4 @@
-package zoho;
+package interviewProblems;
 
 public class pattern_gnana {
 
