@@ -9,6 +9,10 @@ public class ReverseString {
 		System.out.println("enter the string to reverse");
 		input=s1.nextLine();
 		input=input.replaceAll("\\s","");
+		
+		StringBuilder bul=new StringBuilder(input);
+		bul=bul.reverse();
+		System.out.println("by string builder \n"+bul);
 		int num=input.length();
 		Stack <Character> stack=new Stack<Character>();
 		for(int i=0;i<num;i++) {
