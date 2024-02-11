@@ -12,7 +12,9 @@ public class ReverseString {
 		
 		StringBuilder bul=new StringBuilder(input);
 		bul=bul.reverse();
+		int bulsize=bul.capacity();
 		System.out.println("by string builder \n"+bul);
+		System.out.println(bulsize);
 		int num=input.length();
 		Stack <Character> stack=new Stack<Character>();
 		for(int i=0;i<num;i++) {
