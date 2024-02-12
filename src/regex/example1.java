@@ -8,7 +8,9 @@ public class example1 {
 		Matcher m=p.matcher("aabbabbabbaaa");
 		while(m.find()) {
 			System.out.println("start: "+m.start()+" end:"+m.end()+" group:"+m.group());
+			
 		}
+		System.out.println();
 
 	}
 
