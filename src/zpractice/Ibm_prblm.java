@@ -44,6 +44,7 @@ public class Ibm_prblm {
 			Ibm_prblm z=new Ibm_prblm();
 			int count=countNumbersWithoutRepeatedDigits(n,m);
 			System.out.println("count= "+count);
+			System.out.println();
 	        System.out.println("repeatnum= "+countofrepeat);
 
 		}
