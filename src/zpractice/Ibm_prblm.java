@@ -1,17 +1,22 @@
  package zpractice;
 import java.util.*;
 public class Ibm_prblm {
+   static int countofrepeat=0;
 	public static boolean hasRepeatedDigits(int number) {
+		
         Set<Character> digitSet = new HashSet<>();
         char[] digits = String.valueOf(number).toCharArray();
         for (char digit : digits) {
             if (!digitSet.add(digit)) {
+            	countofrepeat++;
                 return true; // Repeated digit found
             }
         }
         return false; // No repeated digits
+       
     }
 	public static int countNumbersWithoutRepeatedDigits(int start, int end) {
+	
         int count = 0;
         for (int num = start; num <= end; num++) {
             if (!hasRepeatedDigits(num)) {
@@ -39,6 +44,8 @@ public class Ibm_prblm {
 			Ibm_prblm z=new Ibm_prblm();
 			int count=countNumbersWithoutRepeatedDigits(n,m);
 			System.out.println("count= "+count);
+	        System.out.println("repeatnum= "+countofrepeat);
+
 		}
 		
 
