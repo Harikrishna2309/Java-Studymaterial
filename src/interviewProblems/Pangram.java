@@ -25,7 +25,7 @@ public class Pangram {
             System.out.println(isPangram(testString));
         }
 
-        scanner.close();
+        
     }
 	
 }

@@ -21,6 +21,7 @@ public class listofSubarray {
 					minSum=sum;
 				}
 				System.out.println("sum= "+sum);
+			
 			}
 			System.out.println();
 		}

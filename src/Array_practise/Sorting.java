@@ -37,6 +37,7 @@ public class Sorting {
 		System.out.println("input array");
 		PrintArray(arr);
 		sortArray(arr);
+		PrintArray(arr);
 
 	}
 
